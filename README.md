@@ -2,7 +2,7 @@
 
 Following tutorial at https://fastapi.tiangolo.com/tutorial/
 
-to build and run a container:
+To build and run a container:
 
 ```
 podman build -t fastapi-test .
