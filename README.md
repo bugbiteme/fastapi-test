@@ -2,7 +2,6 @@
 
 Following tutorial at https://fastapi.tiangolo.com/tutorial/
 
-
 to build and run a container:
 
 ```
