@@ -7,7 +7,7 @@ to build and run a container:
 
 ```
 podman build -t fastapi-test .
-podman run -p 8000:80 fastapi-test
+podman run -p 8000:8080 fastapi-test
 ```
 
 This command runs the podman container, mapping port 4000 on your local machine to port 80 in the podman container (which your FastAPI app should be listening on).  
@@ -31,6 +31,7 @@ pip install -r requirements.txt
 ```
 deactivate
 ```
+
 
 This will return you to your system's default Python environment.  
   
