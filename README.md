@@ -31,7 +31,6 @@ pip install -r requirements.txt
 deactivate
 ```
 
-
 This will return you to your system's default Python environment.  
   
 Once you've deactivated the virtual environment, you can simply delete its directory to remove it completely. The virtual environment is just a directory containing all the necessary files, so removing this directory will delete the environment.
