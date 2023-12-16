@@ -22,6 +22,8 @@ venv\Scripts\activate     # For Windows
 
 pip install --upgrade pip
 pip install -r requirements.txt
+
+uvicorn main:app --reload
 ```
 
 ## To clean up python virtual environment
