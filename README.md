@@ -9,7 +9,7 @@ podman build -t fastapi-test .
 podman run -p 8000:8080 fastapi-test
 ```
 
-This command runs the podman container, mapping port 4000 on your local machine to port 80 in the podman container (which your FastAPI app should be listening on).  
+This command runs the podman container, mapping port 8000 on your local machine to port 8080 in the podman container (which your FastAPI app should be listening on).  
   
 ## To test locally
 
